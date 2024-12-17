@@ -2,6 +2,7 @@ import { useState } from "react"
 import { RiCurrencyLine } from "react-icons/ri"
 import Avatar from "../assets/index"
 import { MdOutlineKeyboardArrowDown } from "react-icons/md"
+import Themeswitch from "./themeswitch"
 const links = ["Dashboard","Transaction", "Accounts", "Settings"]
 const Navbar = () => {
   const [selected,setSelected]=useState(0)
@@ -27,7 +28,7 @@ const Navbar = () => {
       </div>
 
       <div className="flex items-center gap-10 2xl:gap-20">
-        {/* <ThemeSwitch/> */}
+        <Themeswitch/>
         <div className="flex items-center gap-2">
           <img src={Avatar} alt="User" className="w-10 md:w-12 h-10 md:h-10 rounded-full object-cover cursor-pointer" />
           <div className=" hidden md:block">
