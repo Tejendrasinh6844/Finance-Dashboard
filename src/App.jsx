@@ -4,7 +4,7 @@ import Accounts from "./components/accounts"
 import DoughnutChart from "./components/doughnutChart"
 import Chart from "./components/chart"
 import Stats from "./components/stats"
-import Info from "./components/Info"
+import Info from "./components/info"
 const App = () => {
  const theme = "light"
   return (
